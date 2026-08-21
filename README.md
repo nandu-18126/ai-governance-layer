@@ -4,8 +4,8 @@
 
 Real-time PII/sensitive-data interceptor and audit dashboard for AI chatbot conversations.
 
-🔗 **Live Demo:** [https://ai-governance-layer.onrender.com]
-📂 **Repo:** [https://github.com/nandu-18126/ai-governance-layer]
+🔗 **Live Demo:** https://ai-governance-layer.onrender.com
+📂 **Repo:** https://github.com/nandu-18126/ai-governance-layer
 
 ---
 
@@ -114,9 +114,10 @@ Replace `server/mockAgent.js`'s `getAgentReply()` with a real API call (OpenAI, 
 
 ## Team
 
-- Team Name: [Your Team Name]
-- Team No: [Your Team No]
-- College: [Your College Name]
+- Team Name: Zenith
+- Year:III
+- Department:CSE
+- College: Panimalar Engineering college
 
 ---
 
