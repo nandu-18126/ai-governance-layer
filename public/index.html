@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI Safety & Governance Layer</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <div class="app">
+    <nav class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">GL</div>
+        <div class="brand-text">
+          <div class="brand-title">Governance Layer</div>
+          <div class="brand-sub">AI Safety Interceptor</div>
+        </div>
+      </div>
+      <div class="nav-links">
+        <button class="nav-link active" data-view="chat">💬 Chat Simulator</button>
+        <button class="nav-link" data-view="dashboard">📊 Dashboard</button>
+        <button class="nav-link" data-view="policies">⚙️ Policies</button>
+      </div>
+      <div class="sidebar-footer">Hackathon Prototype v1.0</div>
+    </nav>
+
+    <main class="content">
+      <section id="view-chat" class="view active"></section>
+      <section id="view-dashboard" class="view"></section>
+      <section id="view-policies" class="view"></section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
